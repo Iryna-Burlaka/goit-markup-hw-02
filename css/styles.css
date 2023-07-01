@@ -144,6 +144,10 @@ body {
   list-style: none;
 }
 
+.head .team-item: {
+  text-align: center;
+}
+
 .footer {
   background-color: var(--head-color);
 }
