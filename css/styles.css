@@ -122,7 +122,7 @@ body {
 ..section-images-head {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.111px;
+  line-height: 1.1px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -145,7 +145,7 @@ body {
 .section-team-head {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.111px;
+  line-height: 1.1px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -156,7 +156,7 @@ body {
 .section-team-head {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1111;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -197,6 +197,6 @@ body {
   color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5x;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
