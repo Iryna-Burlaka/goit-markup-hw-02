@@ -1,15 +1,8 @@
-<!DOCTYPE
-  html
-  > <html
-  lang="en"
-  > <head
-  > <meta
-  charset="utf-8"
-  /
-  > <title
-  > WebStudio</title
-  > </head
-  > .body {
+:root {
+  --main-color: #2e2f42;
+}
+
+.body {
   font-family: Roboto, sans-serif;
   font-style: normal;
   color: #434455;
@@ -35,11 +28,11 @@
 }
 
 .header-logo-accent {
-  color: #2e2f42;
+  color: var(--main-color);
 }
 
 .header-menu-link {
-  color: #2e2f42;
+  color: var(--main-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -60,7 +53,7 @@
 }
 
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--main-color);
 }
 .hero-head {
   font-size: 56px;
@@ -116,14 +109,14 @@
 }
 
 .menu-text {
-  color: #2e2f42;
+  color: var(--main-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.section-images-head {
+..section-images-head {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.111px;
@@ -131,15 +124,15 @@
   text-transform: capitalize;
 }
 
-.images-head {
-  color: #2e2f42;
+..images-head {
+  color: var(--main-color);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
-.images-text {
+..images-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -157,22 +150,22 @@
 .team {
   background-color: #f4f4fd;
 }
-.section-team-head {
+..section-team-head {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1111;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.team-head {
-  color: #2e2f42;
+..team-head {
+  color: var(--main-color);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
-.team-text {
+..team-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -180,7 +173,7 @@
 }
 
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--main-color);
 }
 
 .footer-logo {
