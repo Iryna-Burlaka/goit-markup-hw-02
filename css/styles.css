@@ -25,7 +25,7 @@
 }
 
 .header-logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -35,7 +35,7 @@
 }
 
 .header-logo-accent {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .header-menu-link {
@@ -184,7 +184,7 @@
 }
 
 .footer-logo {
-  color: #f4f4fd;
+  color: #4d5ae5;
   font-size: 18px;
   font-family: Raleway, sans-serif;
   font-weight: 800;
@@ -194,7 +194,7 @@
 }
 
 .footer-logo-accent {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 
 .footer-text {
