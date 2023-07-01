@@ -2,11 +2,11 @@
   --main-color: #2e2f42;
 }
 
-.body {
+body {
   font-family: Roboto, sans-serif;
   font-style: normal;
   color: #434455;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .link {
@@ -42,12 +42,15 @@
 .header-address-link {
   color: #434455;
   font-size: 16px;
+  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02px;
 }
 
-.header-menu-link:active,
+.header-menu-link:active {
+  color: #404bbf;
+}
 .header-address-link-mail:active {
   color: #404bbf;
 }
@@ -64,7 +67,7 @@
 
 .hero-button {
   background-color: #4d5ae5;
-  color: white;
+  color: #ffffff;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -91,7 +94,7 @@
 }
 
 .button-link-blue {
-  color: #fff;
+  color: #ffffff;
   background-color: #404bbf;
   font-family: inherit;
   font-style: inherit;
@@ -124,7 +127,7 @@
   text-transform: capitalize;
 }
 
-..images-head {
+.images-head {
   color: var(--main-color);
   font-size: 20px;
   font-weight: 500;
@@ -132,14 +135,14 @@
   letter-spacing: 0.02em;
 }
 
-..images-text {
+.images-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-..section-team-head {
+.section-team-head {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.111px;
@@ -150,14 +153,14 @@
 .team {
   background-color: #f4f4fd;
 }
-..section-team-head {
+.section-team-head {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1111;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-..team-head {
+.team-head {
   color: var(--main-color);
   font-size: 20px;
   font-weight: 500;
@@ -165,7 +168,7 @@
   letter-spacing: 0.02em;
 }
 
-..team-text {
+.team-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
