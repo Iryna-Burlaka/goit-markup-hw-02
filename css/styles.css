@@ -144,11 +144,11 @@ body {
   list-style: none;
 }
 
-..head .team-item {
+.head .team-list {
   text-align: center;
 }
 
-..img-img .team-item {
+.img-img .team-list {
   background-color: #ffffff;
 }
 
