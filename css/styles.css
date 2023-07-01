@@ -1,5 +1,5 @@
 :root {
-  --main-color: #2e2f42;
+  --head-color: #2e2f42;
 }
 
 body {
@@ -28,156 +28,88 @@ body {
 }
 
 .header-logo-accent {
-  color: var(--main-color);
+  color: var(--head-color);
 }
 
-.header-menu-link {
-  color: var(--main-color);
+.menu-item {
+  color: var(--head-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.header-address {
-  font-style: none;
+.menu-item:active {
+  color: #404bbf;
 }
 
-.header-address-link {
+.address-item {
   color: #434455;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02px;
+  font-style: none;
 }
 
-.header-menu-link:active {
-  color: #404bbf;
-}
-.header-address-link-mail:active {
+.mail .address-item:active {
   color: #404bbf;
 }
 
-.hero {
-  background-color: var(--main-color);
-}
 .hero-head {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.071;
   letter-spacing: 0.02em;
 }
-
-.hero-button {
-  background-color: #4d5ae5;
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.0025em;
-  font-family: inherit;
-  cursor: pointer;
+.hero {
+  background-color: var(--head-color);
 }
 
-.hero-button:hover {
-  color: #404bbf;
-}
-.hero-button:focus {
-  color: #404bbf;
-}
-
-.button-link {
-  color: #4d5ae5;
+.btn {
   background-color: #e7e9fc;
-  font-size: 16px;
-  font-family: inherit;
-  font-style: inherit;
+  color: #4d5ae5;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  font-family: inherit;
   cursor: pointer;
 }
 
-.button-link-blue {
+.order-btn {
   color: #ffffff;
+  background-color: #4d5ae5;
+}
+
+.btn:hover,
+focus {
   background-color: #404bbf;
-  font-family: inherit;
-  font-style: inherit;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-}
-
-.menu-head {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.menu-text {
-  color: var(--main-color);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-..section-images-head {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11px;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
-}
-
-.images-head {
-  color: var(--main-color);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.images-text {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.section-team-head {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11px;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
+  color: #ffffff;
 }
 
 .team {
   background-color: #f4f4fd;
 }
-.section-team-head {
+.team-head .doing-head .app-head {
+  color: var(--head-color);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
 }
-.team-head {
-  color: var(--main-color);
+
+.head {
+  color: var(--head-color);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
-.team-text {
+.text {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -185,7 +117,7 @@ body {
 }
 
 .footer {
-  background-color: var(--main-color);
+  background-color: var(--head-color);
 }
 
 .footer-logo {
