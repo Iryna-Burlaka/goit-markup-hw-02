@@ -22,7 +22,7 @@
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.1666;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -139,7 +139,7 @@
   letter-spacing: 0.02em;
 }
 
-.section-team-head {
+..section-team-head {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.111px;
@@ -181,7 +181,7 @@
   font-size: 18px;
   font-family: Raleway, sans-serif;
   font-weight: 800;
-  line-height: 1.166;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
