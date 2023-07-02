@@ -155,11 +155,11 @@ body {
   list-style: none;
 }
 
-.head.team-item {
+.team-item .head {
   text-align: center;
 }
 
-.img-img.team-item {
+.team-item .img-img {
   background-color: #ffffff;
 }
 
