@@ -108,6 +108,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 .doing-head {
   color: var(--head-color);
@@ -153,11 +154,11 @@ body {
   list-style: none;
 }
 
-.head .team-list {
+.head.team-item {
   text-align: center;
 }
 
-.img-img .team-list {
+.img-img.team-item {
   background-color: #ffffff;
 }
 
